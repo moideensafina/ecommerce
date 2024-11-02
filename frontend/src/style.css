@@ -1,0 +1,54 @@
+
+
+:root{
+    --rose: #5b0a69;
+}
+#header{
+    background: url(../public/images/home4.jpg) top/cover no-repeat;
+}
+
+.carousel-item .btn{
+    border-color: #fff!important;
+    background-color: white !important;
+    color: black;
+}
+.carousel-item .btn:hover{
+    border-color: var(--rose)!important;
+    background-color: var(--rose) !important;
+    color: white;
+}
+.collection-img img{
+    height: 248px;
+}
+.special-img img{
+    height: 319px;
+}
+.h-97{
+    height: 97px;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--rose);
+}
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--rose);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.gold-color{
+    color: goldenrod !important;
+}
+.red-color{
+    color: rgb(200, 16, 16) !important;
+}
